@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import { page } from '$app/state';
@@ -64,8 +63,9 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
-	<meta name="theme-color" content="#070a26" />
+	<link rel="icon" href="/logo/meridian-icon.svg" type="image/svg+xml" />
+	<link rel="apple-touch-icon" href="/logo/meridian-icon.png" />
+	<meta name="theme-color" content="#1a1f6e" />
 </svelte:head>
 
 {#if isAdmin}
