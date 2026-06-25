@@ -23,7 +23,7 @@
 
 <!-- Sticky index nav -->
 <nav
-	class="sticky top-20 z-30 border-b border-navy-950/10 bg-bone-50/90 backdrop-blur-md lg:top-24"
+	class="sticky top-16 z-30 border-b border-navy-950/10 bg-bone-50/90 backdrop-blur-md lg:top-20"
 	aria-label="Services index"
 >
 	<div class="mx-auto flex max-w-7xl items-center gap-1 overflow-x-auto px-5 sm:px-8">

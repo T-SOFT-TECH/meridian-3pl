@@ -43,7 +43,7 @@
 			: 'border-b border-transparent bg-transparent'
 	]}
 >
-	<div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8 lg:h-24">
+	<div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 sm:px-8 lg:h-20">
 		<a href={resolve('/')} class="relative z-50 flex items-center gap-3" aria-label="Meridian 3PL — home">
 			<img
 				src={light ? '/logo/meridian-3pl-logo.webp' : '/logo/meridian-3pl-white-logo.webp'}
