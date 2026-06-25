@@ -1,0 +1,150 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/archivo/wdth.css';
+@import '@fontsource/cormorant-garamond/500.css';
+@import '@fontsource/cormorant-garamond/500-italic.css';
+@import '@fontsource/cormorant-garamond/600-italic.css';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/500.css';
+
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-sans: 'Archivo Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+	--font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+	--font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', 'Courier New', monospace;
+
+	/* Deep navy — brand primary #1a1f6e sits at 700 */
+	--color-navy-50: #f0f1fb;
+	--color-navy-100: #dfe2f6;
+	--color-navy-200: #c0c4ec;
+	--color-navy-300: #989edf;
+	--color-navy-400: #6b73cd;
+	--color-navy-500: #4a51b5;
+	--color-navy-600: #343b97;
+	--color-navy-700: #1a1f6e;
+	--color-navy-800: #141852;
+	--color-navy-900: #0e113c;
+	--color-navy-950: #070a26;
+
+	/* Golden amber — brand accent #f5a623 sits at 500 */
+	--color-amber-50: #fef7e8;
+	--color-amber-100: #fdeac2;
+	--color-amber-200: #fbd88a;
+	--color-amber-300: #f8c252;
+	--color-amber-400: #f6b132;
+	--color-amber-500: #f5a623;
+	--color-amber-600: #d88706;
+	--color-amber-700: #b36a02;
+
+	/* Warm structural off-whites */
+	--color-bone-50: #fbfaf7;
+	--color-bone-100: #f5f3ec;
+	--color-bone-200: #eae6da;
+	--color-bone-300: #d8d2c0;
+
+	--ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+	--animate-marquee: marquee 36s linear infinite;
+	--animate-spin-slow: spin 24s linear infinite;
+}
+
+@keyframes marquee {
+	to {
+		transform: translateX(-50%);
+	}
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		html {
+			scroll-behavior: auto;
+		}
+	}
+
+	body {
+		@apply bg-bone-50 font-sans text-navy-950 antialiased;
+		font-optical-sizing: auto;
+	}
+
+	::selection {
+		@apply bg-amber-500 text-navy-950;
+	}
+
+	/* Lenis recommended styles */
+	html.lenis,
+	html.lenis body {
+		height: auto;
+	}
+	.lenis.lenis-smooth {
+		scroll-behavior: auto !important;
+	}
+	.lenis.lenis-stopped {
+		overflow: hidden;
+	}
+}
+
+/* ——— Typography voice ——————————————————————————————— */
+
+/* Expanded industrial display setting — the site's headline voice */
+@utility display {
+	font-stretch: 115%;
+	@apply font-sans font-bold tracking-[-0.01em] uppercase;
+}
+
+/* Mono micro-label: coordinates, section indices, eyebrows */
+@utility eyebrow {
+	@apply font-mono text-[11px] leading-none font-medium tracking-[0.28em] uppercase;
+}
+
+/* Cormorant Garamond italic contrast word inside display headlines */
+@utility serif-accent {
+	font-stretch: 100%;
+	@apply font-serif font-medium lowercase italic;
+	letter-spacing: 0;
+}
+
+/* ——— Texture & structure ——————————————————————————————— */
+
+/* Film grain overlay — pseudo element, zero layout cost */
+@utility grain {
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		z-index: 1;
+		pointer-events: none;
+		opacity: 0.05;
+		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+	}
+}
+
+/* Fine meridian gridlines on dark sections */
+@utility meridian-grid {
+	background-image:
+		linear-gradient(to right, rgb(255 255 255 / 0.045) 1px, transparent 1px),
+		linear-gradient(to bottom, rgb(255 255 255 / 0.03) 1px, transparent 1px);
+	background-size: 7rem 7rem;
+}
+
+/* ——— Shared component voices ——————————————————————————————— */
+
+@utility btn-label {
+	@apply font-mono text-xs leading-none font-medium tracking-[0.22em] uppercase;
+}
+
+/* Admin print: hide chrome so quote details save cleanly to PDF */
+@media print {
+	.no-print {
+		display: none !important;
+	}
+	body {
+		background: #fff;
+	}
+}

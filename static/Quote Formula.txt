@@ -1,0 +1,249 @@
+Since your warehouse is **166 sqm** and you’re trying to start lean and win your first clients, I’d avoid enterprise-style pricing and use something simple that scales.
+
+### Step 1 — Choose your charging model
+
+For a small 3PL, charge in 5 layers:
+
+1. **Account fee (base fee)**
+2. **Storage**
+3. **Inbound receiving**
+4. **Pick & pack**
+5. **Shipping + extras**
+
+---
+
+## A. Monthly Account Fee
+
+Covers admin, software, support.
+
+**Formula**
+
+```text
+Account Fee = Fixed Monthly Fee
+```
+
+Suggested:
+
+* Starter → $299/month
+* Growth → $499/month
+* Custom → Quote
+
+---
+
+## B. Storage Pricing
+
+Since you have **166 sqm**, don’t rent by sqm to clients initially.
+
+Charge by **pallet position**.
+
+Assumption:
+
+* Usable warehouse ≈ 70%
+* ~116 sqm usable
+* Approx 40–55 pallet positions
+
+**Formula**
+
+```text
+Storage Fee =
+Pallet Positions × Monthly Rate
+```
+
+Suggested:
+
+```text
+1–10 pallets → $40/pallet
+11–25 pallets → $35/pallet
+26+ pallets → $30/pallet
+```
+
+Example:
+
+```text
+18 pallets × $35
+=
+$630/month
+```
+
+---
+
+## C. Receiving (Inbound)
+
+Charge for goods entering.
+
+**Formula**
+
+```text
+Receiving =
+Cartons Received × Rate
+```
+
+Suggested:
+
+```text
+1–100 cartons → $2/carton
+101–300 → $1.50/carton
+300+ → Custom
+```
+
+Example:
+
+```text
+150 cartons
+=
+$225
+```
+
+---
+
+## D. Pick & Pack (Main Revenue Driver)
+
+Suggested:
+
+**Formula**
+
+```text
+PickPack =
+Orders × Base Fee
++
+Extra Items × Item Fee
+```
+
+Suggested:
+
+```text
+First item = $3.50
+Additional item = $0.50
+```
+
+Example:
+
+```text
+200 orders
++
+150 extra items
+
+=
+$775
+```
+
+---
+
+## E. Shipping
+
+Keep this simple initially.
+
+**Formula**
+
+```text
+Shipping =
+Courier Cost
++
+10–15% Margin
+```
+
+Example:
+
+```text
+$10 freight
++
+15%
+
+=
+$11.50 charged
+```
+
+---
+
+## F. Extras
+
+Optional:
+
+```text
+Returns = $7 each
+Relabel = $1/unit
+Kitting = $0.80/unit
+Urgent dispatch = $50
+Custom packaging = quote
+```
+
+---
+
+# Final Website Calculator Logic
+
+```text
+TOTAL MONTHLY QUOTE =
+
+Account Fee
++
+Storage
++
+Receiving
++
+PickPack
++
+Shipping
++
+Extras
+```
+
+### Example customer:
+
+```text
+Account:     $499
+Storage:     $700
+Receiving:   $200
+PickPack:    $950
+Shipping:    $2,300
+Extras:      $150
+
+TOTAL:
+$4,799/month
+```
+
+### Fields for website form:
+
+* Business name
+* Average orders/month
+* Average items/order
+* Cartons received/month
+* Pallets stored
+* Average shipping postcode
+* Extra services required
+
+This structure should work well for a **166 sqm starter 3PL** and still look professional enough for your first 5–10 clients.
+
+
+TOTAL MONTHLY QUOTE =
+
+Account Fee
++
+Storage
++
+Receiving
++
+PickPack
++
+Shipping
++
+Extras
+
+
+account fee $299
+
+Storage fee 1–10 pallets → $40/pallet
+11–25 pallets → $35/pallet
+26+ pallets → $30/pallet
+
+Monthly Volume	Receiving Rate (per pallet)	Good For
+1–10 pallets	$18–$25 per pallet	Small clients
+11–30 pallets	$15–$20 per pallet	Growing brands
+31+ pallets	$12–$18 per pallet	Higher volume
+
+Pick pack rateFirst item = $3.50
+Additional item = $0.50
+
+Shipping =
+Courier Cost
++
+10–15% Margin

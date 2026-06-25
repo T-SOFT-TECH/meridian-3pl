@@ -1,0 +1,354 @@
+{
+  "nodes": [
+    {
+      "id": "favicon_svelte_logo",
+      "label": "Svelte Framework Logo (Favicon)",
+      "file_type": "image",
+      "source_file": "src/lib/assets/favicon.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "container_ship_ocean_freight",
+      "label": "Container Ship - Ocean Freight",
+      "file_type": "image",
+      "source_file": "static/images/container-ship.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "container_ship_international_shipping",
+      "label": "International Shipping Service",
+      "file_type": "image",
+      "source_file": "static/images/container-ship.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "courier_truck_road_freight",
+      "label": "Courier Truck - Road Freight",
+      "file_type": "image",
+      "source_file": "static/images/courier-truck.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "courier_truck_last_mile_delivery",
+      "label": "Last-Mile Delivery Service",
+      "file_type": "image",
+      "source_file": "static/images/courier-truck.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fulfillment_floor_warehouse_operations",
+      "label": "Fulfillment Floor - Warehouse Operations",
+      "file_type": "image",
+      "source_file": "static/images/fulfillment-floor.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "fulfillment_floor_order_processing",
+      "label": "Order Processing and Fulfillment",
+      "file_type": "image",
+      "source_file": "static/images/fulfillment-floor.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "handshake_business_partnership",
+      "label": "Business Partnership Handshake",
+      "file_type": "image",
+      "source_file": "static/images/handshake.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "handshake_client_relationship",
+      "label": "Client Relationship and Trust",
+      "file_type": "image",
+      "source_file": "static/images/handshake.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hero_warehouse_storage_facility",
+      "label": "Hero Image - Warehouse Storage Facility",
+      "file_type": "image",
+      "source_file": "static/images/hero-warehouse.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "hero_warehouse_3pl_facility",
+      "label": "3PL Warehouse Facility",
+      "file_type": "image",
+      "source_file": "static/images/hero-warehouse.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind_automotive_parts_components",
+      "label": "Automotive Parts and Components",
+      "file_type": "image",
+      "source_file": "static/images/ind-automotive.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind_automotive_industry_vertical",
+      "label": "Automotive Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-automotive.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind_ecommerce_online_store",
+      "label": "E-Commerce Online Store (Shopify)",
+      "file_type": "image",
+      "source_file": "static/images/ind-ecommerce.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind_ecommerce_industry_vertical",
+      "label": "E-Commerce Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-ecommerce.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "favicon_svelte_logo",
+      "target": "hero_warehouse_3pl_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/lib/assets/favicon.svg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "container_ship_ocean_freight",
+      "target": "container_ship_international_shipping",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/container-ship.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "container_ship_international_shipping",
+      "target": "hero_warehouse_3pl_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "static/images/container-ship.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "courier_truck_road_freight",
+      "target": "courier_truck_last_mile_delivery",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/courier-truck.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "courier_truck_last_mile_delivery",
+      "target": "fulfillment_floor_order_processing",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "static/images/courier-truck.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "fulfillment_floor_warehouse_operations",
+      "target": "fulfillment_floor_order_processing",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/fulfillment-floor.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "fulfillment_floor_warehouse_operations",
+      "target": "hero_warehouse_storage_facility",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "static/images/fulfillment-floor.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "hero_warehouse_storage_facility",
+      "target": "hero_warehouse_3pl_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/hero-warehouse.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "hero_warehouse_3pl_facility",
+      "target": "fulfillment_floor_order_processing",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "static/images/hero-warehouse.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "handshake_business_partnership",
+      "target": "handshake_client_relationship",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/handshake.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "handshake_client_relationship",
+      "target": "hero_warehouse_3pl_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "static/images/handshake.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "ind_automotive_parts_components",
+      "target": "ind_automotive_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-automotive.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind_automotive_industry_vertical",
+      "target": "hero_warehouse_3pl_facility",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "static/images/ind-automotive.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "ind_ecommerce_online_store",
+      "target": "ind_ecommerce_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-ecommerce.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind_ecommerce_industry_vertical",
+      "target": "fulfillment_floor_order_processing",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "static/images/ind-ecommerce.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "ind_ecommerce_industry_vertical",
+      "target": "courier_truck_last_mile_delivery",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "static/images/ind-ecommerce.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "container_ship_ocean_freight",
+      "target": "courier_truck_road_freight",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "static/images/container-ship.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "ind_automotive_industry_vertical",
+      "target": "ind_ecommerce_industry_vertical",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "static/images/ind-automotive.jpg",
+      "source_location": null,
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

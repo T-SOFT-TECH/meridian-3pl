@@ -1,0 +1,46 @@
+{
+	"name": "meridian-3pl",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"pb": "cd backend && pocketbase.exe serve"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^7.0.1",
+		"@sveltejs/adapter-node": "^5.5.4",
+		"@sveltejs/kit": "^2.63.0",
+		"@sveltejs/vite-plugin-svelte": "^7.1.2",
+		"@tailwindcss/forms": "^0.5.11",
+		"@tailwindcss/typography": "^0.5.19",
+		"@tailwindcss/vite": "^4.3.0",
+		"@types/node": "^25.9.3",
+		"@types/nodemailer": "^8.0.1",
+		"svelte": "^5.56.1",
+		"svelte-check": "^4.6.0",
+		"tailwindcss": "^4.3.0",
+		"typescript": "^6.0.3",
+		"vite": "^8.0.16",
+		"vitest": "^4.1.9"
+	},
+	"dependencies": {
+		"@fontsource-variable/archivo": "^5.2.8",
+		"@fontsource/cormorant-garamond": "^5.2.11",
+		"@fontsource/ibm-plex-mono": "^5.2.7",
+		"@fontsource/instrument-serif": "^5.2.8",
+		"@lucide/svelte": "^1.18.0",
+		"gsap": "^3.15.0",
+		"lenis": "^1.3.23",
+		"nodemailer": "^8.0.11",
+		"pocketbase": "^0.27.0",
+		"zod": "^4.4.3"
+	}
+}

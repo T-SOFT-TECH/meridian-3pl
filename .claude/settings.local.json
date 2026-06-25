@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Recurse -Depth 2 \"C:\\\\Users\\\\USER\\\\Documents\\\\WEBSITES\\\\David Australia\\\\MERIDIAN 3PL\\\\meridian-3pl\" -Exclude node_modules | Where-Object { $_.FullName -notmatch 'node_modules' } | Select-Object FullName | Format-Table -AutoSize)",
+      "mcp__svelte__list-sections",
+      "mcp__svelte__get-documentation",
+      "PowerShell(npm install @fontsource-variable/archivo @fontsource/instrument-serif @fontsource/ibm-plex-mono)",
+      "Read(//c/Users/USER/Documents/WEBSITES/David Australia/MERIDIAN 3PL/meridian-3pl/static/images/**)",
+      "Bash(mv hero-cand2.jpg port-aerial.jpg)",
+      "Bash(mv worker-pallet.jpg fulfillment-floor.jpg)",
+      "Bash(mv containers-stacked.jpg container-ship.jpg)",
+      "Bash(mv loading-dock.jpg parcel-handover.jpg)",
+      "Bash(ls \"/c/Users/USER/Documents/WEBSITES/David Australia/MERIDIAN 3PL/meridian-3pl/node_modules/@fontsource-variable/archivo/\" | head -40; echo ---; ls \"/c/Users/USER/Documents/WEBSITES/David Australia/MERIDIAN 3PL/meridian-3pl/node_modules/@fontsource/instrument-serif/\" | head -20; echo ---; ls \"/c/Users/USER/Documents/WEBSITES/David Australia/MERIDIAN 3PL/meridian-3pl/node_modules/@fontsource/ibm-plex-mono/\" | head -30)"
+    ]
+  }
+}

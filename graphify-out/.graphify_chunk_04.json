@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "melbourneflinders_flinders_street_station",
+      "label": "Flinders Street Station — Melbourne Landmark",
+      "file_type": "image",
+      "source_file": "static/images/melbourne-flinders.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Daytime photo of Flinders Street Station, Melbourne's iconic Federation-style railway station with yellow ochre facade and green dome. A tram passes in the foreground alongside a horse-drawn carriage with pink feathers — vivid, energetic urban scene. Depicts Meridian 3PL's home city and operational base, establishing Melbourne as the brand's geographic anchor.",
+      "visual_concepts": ["Melbourne CBD", "urban transport hub", "tram network", "heritage architecture", "city gateway", "federation style", "daytime street life"],
+      "site_purpose": "Geographic identity — establishes Melbourne as the company's home city and logistics hub"
+    },
+    {
+      "id": "parcelhandover_last_mile_delivery",
+      "label": "Last-Mile Parcel Handover",
+      "file_type": "image",
+      "source_file": "static/images/parcel-handover.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Close-up of a courier in a blue uniform handing a sealed cardboard box (with fragile/caution label) to a recipient. Warm, human-focused composition with shallow depth of field emphasising the box transfer moment. Represents the final-mile delivery and customer fulfilment aspect of 3PL operations.",
+      "visual_concepts": ["last-mile delivery", "parcel handover", "courier service", "customer fulfilment", "ecommerce delivery", "B2C logistics", "fragile goods handling"],
+      "site_purpose": "Illustrates delivery and fulfilment services for end customers"
+    },
+    {
+      "id": "planning_logistics_strategy",
+      "label": "Logistics Planning and Strategy Session",
+      "file_type": "image",
+      "source_file": "static/images/planning.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Two business professionals at a desk with multiple laptops reviewing hand-drawn flowcharts and diagrams on paper. Pencils and pens on the table. Neutral, professional tone suggesting collaborative supply-chain planning or route optimisation. Represents Meridian 3PL's consultative, analytical approach to logistics management.",
+      "visual_concepts": ["supply chain planning", "logistics consulting", "route optimisation", "operational analysis", "team collaboration", "flowchart review", "business strategy"],
+      "site_purpose": "Represents strategic logistics planning and consultancy services offered to clients"
+    },
+    {
+      "id": "portaerial_container_port",
+      "label": "Aerial Container Port — International Freight",
+      "file_type": "image",
+      "source_file": "static/images/port-aerial.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Aerial/drone shot of a major container port with dozens of multi-coloured shipping containers stacked in rows, large gantry cranes, and cargo ships at berth. Overcast sky. Depicts high-volume international freight and port logistics — the upstream supply chain feeding into 3PL warehousing and distribution.",
+      "visual_concepts": ["container port", "international freight", "shipping containers", "gantry cranes", "import/export", "sea freight", "port logistics", "supply chain upstream"],
+      "site_purpose": "Represents international freight, import/export capability and port-to-warehouse supply chain"
+    },
+    {
+      "id": "racksmoody_warehouse_storage",
+      "label": "Warehouse Pallet Racking — Storage Operations",
+      "file_type": "image",
+      "source_file": "static/images/racks-moody.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Low-angle interior shot of a large warehouse with floor-to-ceiling metal pallet racking stacked with cardboard boxes and shrink-wrapped pallets. Warm industrial lighting strips run along the ceiling. Moody, dramatic perspective emphasising scale and capacity of storage. Core image for Meridian 3PL's warehousing and inventory management services.",
+      "visual_concepts": ["pallet racking", "warehouse storage", "inventory management", "bulk storage", "fulfilment centre", "cold dark tones", "industrial lighting", "3PL warehousing"],
+      "site_purpose": "Primary hero/service image for warehousing and storage capabilities"
+    },
+    {
+      "id": "roadtrain_australian_freight",
+      "label": "Australian Road Train — Long-Haul Freight",
+      "file_type": "image",
+      "source_file": "static/images/road-train.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "A yellow and red Kenworth road train with 'ROAD TRAIN' sign on the front grille, pulling multiple trailers across a flat outback highway under a dramatic cloudy sky. Distinctly Australian setting — red dirt plains, open horizon. Signifies long-haul interstate freight, bulk transport and pan-Australia distribution capability.",
+      "visual_concepts": ["road train", "long-haul transport", "outback highway", "interstate freight", "bulk haulage", "Australian logistics", "heavy vehicle", "pan-Australia distribution"],
+      "site_purpose": "Illustrates interstate road freight and long-haul transport services across Australia"
+    },
+    {
+      "id": "truckduskbw_transport_hero",
+      "label": "Semi-Truck at Dusk — Dramatic Transport Hero",
+      "file_type": "image",
+      "source_file": "static/images/truck-dusk-bw.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Black-and-white cinematic photo of a semi-trailer truck driving on a highway at dusk with dramatic mountain peaks, storm clouds and light rays behind it. High contrast, moody atmosphere with the truck's headlights glowing. Premium editorial quality — conveys strength, reliability and the scale of freight operations. Likely used as a hero/banner image.",
+      "visual_concepts": ["semi-trailer", "highway transport", "dusk lighting", "black and white photography", "dramatic landscape", "freight reliability", "road transport", "hero banner image", "cinematic mood"],
+      "site_purpose": "High-impact hero/banner image communicating scale, reliability and premium brand positioning"
+    },
+    {
+      "id": "logo_meridian3pl_primary",
+      "label": "Meridian 3PL Primary Logo",
+      "file_type": "logo",
+      "source_file": "static/logo/meridian-3pl-logo.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "Primary brand logo for Meridian 3PL. Comprises a compass rose icon (stylised, with four main cardinal points and a central circle) rendered in deep navy/royal blue, positioned above the wordmark. Text reads '3PL' in bold on the left of 'MERIDIAN' on the right — both in navy blue. 'MERIDIAN' is set in a large bold sans-serif typeface. The compass motif reinforces navigation, direction and precision — core metaphors for a logistics brand. Background: white.",
+      "visual_concepts": ["compass rose icon", "navy blue brand color", "bold sans-serif typography", "wordmark", "3PL identifier", "navigation metaphor", "logistics brand mark", "two-line lockup", "white background version"],
+      "brand_elements": {
+        "primary_color": "Navy blue / Royal blue (#1a2b8c approx)",
+        "secondary_color": "White",
+        "icon": "Compass rose with stylised four-pointed star and central circle",
+        "typography_style": "Bold uppercase sans-serif",
+        "lockup": "Icon above text — '3PL MERIDIAN' in two elements",
+        "metaphor": "Compass = navigation, direction, precision logistics"
+      }
+    },
+    {
+      "id": "logo_meridian3pl_white",
+      "label": "Meridian 3PL White (Reversed) Logo",
+      "file_type": "logo",
+      "source_file": "static/logo/meridian-3pl-white-logo.webp",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "description": "White reversed/knockout version of the Meridian 3PL logo — same compass rose icon and wordmark as the primary logo but rendered entirely in white for use on dark or coloured backgrounds (e.g. dark hero images, navy headers, footer sections). The structure is identical: compass rose icon above '3PL MERIDIAN' text lockup. Transparent background.",
+      "visual_concepts": ["white logo", "reversed knockout logo", "dark background usage", "compass rose", "brand consistency", "footer/header logo variant", "transparent background"],
+      "brand_elements": {
+        "primary_color": "White",
+        "background": "Transparent",
+        "usage": "Dark backgrounds, hero overlays, footers, navy sections",
+        "relationship": "White variant of meridian-3pl-logo.webp"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "logo_meridian3pl_primary",
+      "target": "logo_meridian3pl_white",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/logo/meridian-3pl-logo.webp",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "racksmoody_warehouse_storage",
+      "target": "parcelhandover_last_mile_delivery",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "static/images/racks-moody.jpg",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "portaerial_container_port",
+      "target": "racksmoody_warehouse_storage",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "static/images/port-aerial.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "roadtrain_australian_freight",
+      "target": "truckduskbw_transport_hero",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/road-train.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "roadtrain_australian_freight",
+      "target": "portaerial_container_port",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "static/images/road-train.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "truckduskbw_transport_hero",
+      "target": "logo_meridian3pl_primary",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "static/images/truck-dusk-bw.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "melbourneflinders_flinders_street_station",
+      "target": "logo_meridian3pl_primary",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "static/images/melbourne-flinders.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "planning_logistics_strategy",
+      "target": "racksmoody_warehouse_storage",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "static/images/planning.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "planning_logistics_strategy",
+      "target": "parcelhandover_last_mile_delivery",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "static/images/planning.jpg",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "portaerial_container_port",
+      "target": "roadtrain_australian_freight",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "static/images/port-aerial.jpg",
+      "source_location": null,
+      "weight": 0.85
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

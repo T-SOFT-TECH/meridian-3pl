@@ -1,0 +1,573 @@
+{
+  "nodes": [
+    {
+      "id": "ind-electronics_industry_vertical",
+      "label": "Electronics Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-electronics.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-electronics_circuit_board",
+      "label": "Circuit Board / PCB",
+      "file_type": "image",
+      "source_file": "static/images/ind-electronics.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-electronics_microchip",
+      "label": "Microchip / Semiconductor Component",
+      "file_type": "image",
+      "source_file": "static/images/ind-electronics.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-fashion_industry_vertical",
+      "label": "Fashion & Apparel Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-fashion.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-fashion_clothing_boutique",
+      "label": "Clothing Boutique / Garment Store Interior",
+      "file_type": "image",
+      "source_file": "static/images/ind-fashion.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-fashion_clothing_rack",
+      "label": "Clothing Rack with Hanging Garments",
+      "file_type": "image",
+      "source_file": "static/images/ind-fashion.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-fmcg_industry_vertical",
+      "label": "FMCG Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-fmcg.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-fmcg_supermarket_produce",
+      "label": "Supermarket Produce Shelves",
+      "file_type": "image",
+      "source_file": "static/images/ind-fmcg.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-fmcg_fresh_vegetables",
+      "label": "Fresh Vegetables / Grocery Produce",
+      "file_type": "image",
+      "source_file": "static/images/ind-fmcg.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-food_industry_vertical",
+      "label": "Food Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-food.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-food_artisan_bread",
+      "label": "Artisan Bread Loaves",
+      "file_type": "image",
+      "source_file": "static/images/ind-food.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-food_wheat_grain",
+      "label": "Wheat / Grain Produce",
+      "file_type": "image",
+      "source_file": "static/images/ind-food.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-healthcare_industry_vertical",
+      "label": "Healthcare & Pharmaceutical Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-healthcare.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-healthcare_pharmaceutical_capsules",
+      "label": "Pharmaceutical Capsule Pills",
+      "file_type": "image",
+      "source_file": "static/images/ind-healthcare.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-healthcare_medicine_bottle",
+      "label": "Prescription Medicine Bottle",
+      "file_type": "image",
+      "source_file": "static/images/ind-healthcare.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-industrial_industry_vertical",
+      "label": "Industrial Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-industrial.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-industrial_arc_welding",
+      "label": "Arc Welding Operation with Sparks",
+      "file_type": "image",
+      "source_file": "static/images/ind-industrial.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-industrial_welder_worker",
+      "label": "Welder Worker with Protective Helmet",
+      "file_type": "image",
+      "source_file": "static/images/ind-industrial.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-manufacturing_industry_vertical",
+      "label": "Manufacturing Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-manufacturing.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-manufacturing_metal_grinding",
+      "label": "Metal Grinding with Angle Grinder",
+      "file_type": "image",
+      "source_file": "static/images/ind-manufacturing.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-manufacturing_sparks_metalwork",
+      "label": "Metalwork Sparks / Fabrication Process",
+      "file_type": "image",
+      "source_file": "static/images/ind-manufacturing.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-retail_industry_vertical",
+      "label": "Retail Industry Vertical",
+      "file_type": "image",
+      "source_file": "static/images/ind-retail.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-retail_store_interior",
+      "label": "Retail Store Interior with Product Display",
+      "file_type": "image",
+      "source_file": "static/images/ind-retail.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ind-retail_merchandise_shelving",
+      "label": "Merchandise Shelving with Clothing and Accessories",
+      "file_type": "image",
+      "source_file": "static/images/ind-retail.jpg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "ind-electronics_circuit_board",
+      "target": "ind-electronics_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-electronics.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-electronics_microchip",
+      "target": "ind-electronics_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-electronics.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-electronics_microchip",
+      "target": "ind-electronics_circuit_board",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-electronics.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "ind-fashion_clothing_boutique",
+      "target": "ind-fashion_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-fashion.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-fashion_clothing_rack",
+      "target": "ind-fashion_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-fashion.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-fashion_clothing_rack",
+      "target": "ind-fashion_clothing_boutique",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-fashion.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "ind-fashion_industry_vertical",
+      "target": "ind-retail_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "static/images/ind-fashion.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "ind-fmcg_supermarket_produce",
+      "target": "ind-fmcg_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-fmcg.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-fmcg_fresh_vegetables",
+      "target": "ind-fmcg_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-fmcg.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-fmcg_fresh_vegetables",
+      "target": "ind-fmcg_supermarket_produce",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-fmcg.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "ind-fmcg_industry_vertical",
+      "target": "ind-food_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "static/images/ind-fmcg.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "ind-food_artisan_bread",
+      "target": "ind-food_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-food.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-food_wheat_grain",
+      "target": "ind-food_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-food.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-food_wheat_grain",
+      "target": "ind-food_artisan_bread",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-food.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "ind-healthcare_pharmaceutical_capsules",
+      "target": "ind-healthcare_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-healthcare.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-healthcare_medicine_bottle",
+      "target": "ind-healthcare_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-healthcare.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-healthcare_pharmaceutical_capsules",
+      "target": "ind-healthcare_medicine_bottle",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-healthcare.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "ind-industrial_arc_welding",
+      "target": "ind-industrial_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-industrial.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-industrial_welder_worker",
+      "target": "ind-industrial_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-industrial.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-industrial_welder_worker",
+      "target": "ind-industrial_arc_welding",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-industrial.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "ind-industrial_industry_vertical",
+      "target": "ind-manufacturing_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "static/images/ind-industrial.jpg",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "ind-manufacturing_metal_grinding",
+      "target": "ind-manufacturing_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-manufacturing.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-manufacturing_sparks_metalwork",
+      "target": "ind-manufacturing_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-manufacturing.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-manufacturing_sparks_metalwork",
+      "target": "ind-manufacturing_metal_grinding",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-manufacturing.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "ind-manufacturing_metal_grinding",
+      "target": "ind-industrial_arc_welding",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "static/images/ind-manufacturing.jpg",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "ind-retail_store_interior",
+      "target": "ind-retail_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-retail.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-retail_merchandise_shelving",
+      "target": "ind-retail_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-retail.jpg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "ind-retail_merchandise_shelving",
+      "target": "ind-retail_store_interior",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "static/images/ind-retail.jpg",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "ind-retail_industry_vertical",
+      "target": "ind-fmcg_industry_vertical",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "static/images/ind-retail.jpg",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "ind-retail_store_interior",
+      "target": "ind-fashion_clothing_boutique",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "static/images/ind-retail.jpg",
+      "source_location": null,
+      "weight": 0.7
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
