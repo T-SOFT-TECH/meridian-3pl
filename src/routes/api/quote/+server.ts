@@ -2,7 +2,7 @@ import { json, type RequestHandler } from '@sveltejs/kit';
 import { quoteSchema, calcQuoteSchema } from '$lib/schemas';
 import { sendNotification, emailTable } from '$lib/server/email';
 import { getPublishedConfig } from '$lib/server/pricing';
-import { getAdminPb } from '$lib/server/pb';
+import { getServicePb } from '$lib/server/pb';
 import { computeQuote } from '$lib/pricing/calculate';
 
 export const prerender = false;
@@ -38,7 +38,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		const estimate = computeQuote(d.calc, config);
 
 		try {
-			const pb = await getAdminPb();
+			const pb = await getServicePb();
 			await pb.collection('quote_requests').create({
 				reference,
 				status: 'new',
@@ -98,7 +98,7 @@ export const POST: RequestHandler = async ({ request }) => {
 	const reference = ref();
 
 	try {
-		const pb = await getAdminPb();
+		const pb = await getServicePb();
 		await pb.collection('quote_requests').create({
 			reference,
 			status: 'new',

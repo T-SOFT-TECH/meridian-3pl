@@ -21,7 +21,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 	const { pathname } = event.url;
 
 	if (pathname.startsWith('/admin')) {
-		const isPublic = pathname === '/admin/login' || pathname === '/admin/setup';
+		const isPublic = pathname === '/admin/login';
 		if (!isPublic && !event.locals.user) throw redirect(303, '/admin/login');
 		if (event.locals.user && pathname === '/admin/login') throw redirect(303, '/admin');
 	}

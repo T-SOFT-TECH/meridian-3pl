@@ -4,7 +4,7 @@
 	let { children, data } = $props();
 
 	const pathname = $derived(page.url.pathname);
-	const bare = $derived(pathname === '/admin/login' || pathname === '/admin/setup');
+	const bare = $derived(pathname === '/admin/login');
 
 	const NAV = [
 		{ href: '/admin', label: 'Dashboard', exact: true },

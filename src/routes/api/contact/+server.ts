@@ -1,7 +1,7 @@
 import { json, type RequestHandler } from '@sveltejs/kit';
 import { contactSchema } from '$lib/schemas';
 import { sendNotification, emailTable } from '$lib/server/email';
-import { getAdminPb } from '$lib/server/pb';
+import { getServicePb } from '$lib/server/pb';
 
 export const prerender = false;
 
@@ -24,7 +24,7 @@ export const POST: RequestHandler = async ({ request }) => {
 	const d = parsed.data;
 
 	try {
-		const pb = await getAdminPb();
+		const pb = await getServicePb();
 		await pb.collection('contact_messages').create({
 			name: d.name,
 			email: d.email,

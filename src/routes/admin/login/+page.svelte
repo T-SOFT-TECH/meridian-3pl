@@ -1,11 +1,8 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import { page } from '$app/state';
 
 	let { form } = $props();
 	let loading = $state(false);
-
-	const welcomed = $derived(page.url.searchParams.get('welcome') === '1');
 </script>
 
 <svelte:head><title>Sign in — Meridian 3PL Admin</title></svelte:head>
@@ -17,12 +14,6 @@
 		<h1 class="display mt-4 text-center text-3xl text-white">
 			Welcome <span class="serif-accent text-amber-500">back.</span>
 		</h1>
-
-		{#if welcomed}
-			<p class="mt-6 border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-center text-sm text-amber-200">
-				Account created — sign in to continue.
-			</p>
-		{/if}
 
 		<form
 			method="POST"

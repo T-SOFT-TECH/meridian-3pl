@@ -1,4 +1,4 @@
-import { getAdminPb } from './pb';
+import { getServicePb } from './pb';
 import { DEFAULT_RATE_CARD } from '$lib/pricing/default-config';
 import type { RateCard } from '$lib/pricing/types';
 
@@ -7,7 +7,7 @@ const COL = 'pricing_config';
 /** The currently published rate card (falls back to the approved default if none). */
 export async function getPublishedConfig(): Promise<RateCard> {
 	try {
-		const pb = await getAdminPb();
+		const pb = await getServicePb();
 		const result = await pb.collection(COL).getList(1, 1, {
 			filter: 'is_published = true',
 			sort: '-effective_from'
@@ -20,7 +20,7 @@ export async function getPublishedConfig(): Promise<RateCard> {
 
 /** Seed the approved default as the first published version, once, if the collection is empty. */
 export async function seedIfEmpty(userId?: string | null): Promise<void> {
-	const pb = await getAdminPb();
+	const pb = await getServicePb();
 	const existing = await pb.collection(COL).getList(1, 1);
 	if (existing.totalItems > 0) return;
 	await pb.collection(COL).create({
@@ -34,7 +34,7 @@ export async function seedIfEmpty(userId?: string | null): Promise<void> {
 }
 
 export async function listVersions() {
-	const pb = await getAdminPb();
+	const pb = await getServicePb();
 	const rows = await pb.collection(COL).getFullList({ sort: '-version' });
 	return rows.map((r) => ({
 		id: r.id,
@@ -48,7 +48,7 @@ export async function listVersions() {
 }
 
 export async function getVersion(id: string) {
-	const pb = await getAdminPb();
+	const pb = await getServicePb();
 	try {
 		const r = await pb.collection(COL).getOne(id);
 		return {
@@ -71,7 +71,7 @@ export async function saveDraft(
 	userId: string | null,
 	note?: string | null
 ): Promise<number> {
-	const pb = await getAdminPb();
+	const pb = await getServicePb();
 	const latest = await pb.collection(COL).getList(1, 1, { sort: '-version' });
 	const maxV = (latest.items[0]?.version as number) ?? 0;
 	const version = maxV + 1;
@@ -87,7 +87,7 @@ export async function saveDraft(
 
 /** Unpublish all current versions then stamp the target as published. */
 export async function publish(id: string): Promise<void> {
-	const pb = await getAdminPb();
+	const pb = await getServicePb();
 	const published = await pb.collection(COL).getFullList({ filter: 'is_published = true' });
 	await Promise.all(published.map((r) => pb.collection(COL).update(r.id, { is_published: false })));
 	await pb.collection(COL).update(id, {
